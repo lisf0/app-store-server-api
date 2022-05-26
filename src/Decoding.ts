@@ -1,5 +1,6 @@
 import { X509Certificate } from "crypto"
 import * as jose from "jose"
+import { TextDecoder } from "util"
 import { APPLE_ROOT_CA_G3_FINGERPRINT } from "./AppleRootCertificate"
 import { CertificateValidationError } from "./Errors"
 import {
